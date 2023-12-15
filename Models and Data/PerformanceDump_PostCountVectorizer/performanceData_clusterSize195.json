@@ -1,0 +1,43 @@
+{
+    "cluster_size": 195,
+    "KNN_Acc_Count": {
+        "Accuracy_train": 0,
+        "Accuracy_test": 0,
+        "Config": {}
+    },
+    "SVM_Acc_Count": {
+        "Accuracy_train": 0,
+        "Accuracy_test": 0,
+        "Config": {}
+    },
+    "KNN_Acc_TFIDF": {
+        "Accuracy_train": 0.9038461538461539,
+        "Accuracy_test": 0.6013986013986014,
+        "Config": {
+            "n_neighbors": 2
+        }
+    },
+    "SVM_Acc_TFIDF": {
+        "Accuracy_train": 0.9318181818181818,
+        "Accuracy_test": 0.7692307692307693,
+        "Config": {
+            "C": 1.0,
+            "kernel": "rbf"
+        }
+    },
+    "KNN_Acc_Hist": {
+        "Accuracy_train": 0.701048951048951,
+        "Accuracy_test": 0.7132867132867133,
+        "Config": {
+            "n_neighbors": 37
+        }
+    },
+    "SVM_Acc_Hist": {
+        "Accuracy_train": 0.8741258741258742,
+        "Accuracy_test": 0.7202797202797203,
+        "Config": {
+            "C": 1.0,
+            "kernel": "rbf"
+        }
+    }
+}

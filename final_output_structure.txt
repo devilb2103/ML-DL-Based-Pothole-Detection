@@ -1,0 +1,28 @@
+label descriptors to which cluster it belongs
+generate histogram for descriptors in each image and label them as pothole and not pothole
+train svm and knn gridcv on descriptor histogram
+do tfidf reweighting
+train svm and knn gridcv on generated tfidf sparse matrices
+
+final output matrix
+
+sift - using histogram
+cluster sizes	knn test acc	svm test acc
+
+sift - using tf idf matrix
+cluster sizes	knn test acc	svm test acc
+
+
+TIME TAKEN RECORD ------------------------------
+generation of image histogram time taken: 67.8s
+
+KNN_Hist = 1.4s (Acc = 75)
+SVM_Hist = 44s (Acc = 76.3)
+
+TFIDF Vectorization = 0s
+
+KNN_TFIDF = 1.8s (Acc = 69.4)
+SVM_TFIDF = 0.3s (Acc = 79.1)
+
+Per Model Instance Iteration = 47.5s
+Worst Case total time = 2410s = 40min 10s

@@ -1,4 +1,4 @@
-# Road Pothole Detection using Pattern Recognition
+# Road Pothole Detection using Supervised and Unsupervised Methods
 
 ## 📌 Overview
 
